@@ -1,0 +1,641 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Bebas+Neue&family=Maven+Pro:wght@600&family=Open+Sans&family=PT+Sans&family=Poppins&family=Rubik&family=Source+Sans+3:wght@300;400&family=Work+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+
+   
+}
+
+.pattu{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(248,248,248);
+}
+.nav{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-inline: 3%;
+    column-gap: 20px;
+    background-color: transparent;
+}
+.nav h1 a{
+    font-size: 36px;
+    letter-spacing: 4px;
+    text-decoration: none;
+    color:  rgb(241,98,50);
+
+}
+
+.nav hr{
+    height: 30px;
+    width: 1px;
+    color: rgb(67, 70, 75);
+}
+.nav a{
+    color: rgb(67, 70, 75);
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* con */
+
+.con{
+    height: auto;
+    width: 100%;
+    align-items: start;
+    justify-content: center;
+    display: flex;
+    padding-block: 15%;
+    padding-inline: 3%;
+}
+.con .left{
+    height: auto;
+    width: 50%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    row-gap: 70px;
+}
+.left h1{
+    font-size: 72px;
+    color:  rgb(38, 40, 45);
+    font-weight: 600;
+    width: 70%;
+}
+.left .lb{
+    height: auto;
+    width: 100%;
+    background-color: white;
+    padding: 3%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    row-gap: 20px;
+    flex-direction: column;
+}
+.lb h3{
+    font-size: 22px;
+    color: rgb(67,70,75);
+    font-weight: 600;
+}
+
+.lb p{
+    font-size: 22px;
+    width: 80%;
+}
+
+.lb p .sp{
+    color: rgb(241,98,50);
+    font-weight: 600;
+}
+
+.lb span{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: auto;
+    width: auto;
+}
+.lb span input{
+    height: 70px;
+    width: 400px;
+    padding-left: 20px;
+}
+
+.lb input::placeholder{
+    font-size: 16px;
+}
+.lb span button{
+    height: 70px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(241,98,50);
+    color: white;
+    border: none;
+}
+.con .right{
+    height: 500px;
+    width: 50%;
+    align-items: end;
+    justify-items: center;
+    display: flex;
+    background-image: url("./img/competitors.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 80%;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+.txt{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 70px;
+}
+.txt p{
+    font-size: 19px;
+    position: relative;
+    left: 40px;
+    top: 100px;
+    color: rgb(67, 70, 75);
+    
+}
+
+.txt img{
+    position: relative;
+    top: 185px;
+   
+}
+.last{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 100px;
+    padding-right: 80px;
+    border-radius: 30px;
+    background-color: white;
+    position: relative;
+    top: 80px;
+    
+}
+
+.last .cbr{
+    height: 50px;
+    width: 180px;
+    font-size: 19px;
+    border-radius: 30px;
+    color: rgb(241,98,50);
+    border: 1px solid rgb(241,98,50);
+    background-color: white;
+}
+.last a{
+    font-size: 19px;
+    color: rgb(133,139,152);
+}
+/* con1 */
+
+.con1{
+    height: auto;
+    width: 100%;
+    padding-inline: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f16232;
+    color: white;
+    row-gap: 30px;
+    padding-block:12%;
+}
+
+.con1 h1{
+    font-size: 55px;
+    font-weight: 500;
+   
+    
+}
+
+.con1 h1 a{
+    font-weight: 600;
+    color: white;
+}
+
+.con1 h5{
+    font-size: 28px;
+    font-weight: 400;
+}
+.con1 a img{
+    width: 90%;
+}
+
+.con1 p{
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+    width: 80%;
+}
+.con1 span{
+    height: auto;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.con1 input{
+    height: 70px;
+    width: 80%;
+    padding-left: 30px;
+}
+
+.con1 input::placeholder{
+    font-size: 19px;
+}
+
+.con1 .btn1{
+    height: 70px;
+    width: 30%;
+    background-color: rgb(66,133,244);
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+}
+/* con2 */
+
+.con2{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.con2 .left2{
+    height: 800px;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 3%;
+    row-gap: 50px;
+}
+
+.left2 h1{
+    font-size: 60px;
+    font-weight: 400;
+    width: auto;
+    text-align: center; 
+}
+
+.left2 hr{
+    color: #f16232;
+    width: 10%;
+}
+
+.left2 p{
+    font-size: 19px;
+    font-weight: 300;
+    color: rgb(38, 39, 44);
+    line-height: 28px;
+    text-align: center;
+    width: 92%;
+}
+
+.left2 .btn2{
+    height: 60px;
+    width: 45%;
+    font-weight: 600;
+    font-size: 19px;
+    color: white;
+    background-color: #f16232;
+    letter-spacing: 2px;
+    border: none;
+}
+
+.left2 .btn2:hover{
+    color:#f16232 ;
+    background-color: white;
+    border: 1px solid #f16232;
+}
+
+.right2{
+    height: 800px;
+    width: 35%;
+    background-image: url("./img/bg-about-neil.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+/* con3 */
+
+.con3{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-block: 10%;
+    row-gap: 30px;
+    background-color: #f16232;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.con3 h1{
+    font-size: 48px;
+    font-weight: 400;
+    width: 50%;
+    text-align: center;
+}
+.con3 h1 span{
+    font-weight: 600;
+}
+
+.con3 hr{
+    width: 10%;
+    color: white;
+}
+
+.con3 .bx{
+    height: auto;
+    width: 70%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 3%;
+    background-color: white;
+    color: black;
+    row-gap: 80px;
+    
+
+}
+
+
+.bx .box{
+    height: 200px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+   
+    
+}
+
+.box h2{
+    color: #f16232;
+    font-size: 26px;
+    font-weight: 600;
+
+}
+.box p{
+    text-align: center  ;
+    width: auto;
+    font-size: 19px;
+    font-weight: 300;
+    color: rgb(67,70,75);
+}
+.box .btn3{
+    height: 50px;
+    width: 60%;
+    font-size: 12px;
+    font-weight: 600;
+    color: #f16232;
+    letter-spacing: 2px;
+    background-color: white;
+    border: 1px solid #f16232;
+    border: none;
+}
+
+.box .btn3:hover{
+    
+   background-color: #f16232;
+   color: white;
+
+}
+/* con4 */
+
+.con4{
+    height: auto;
+    width: 100%;
+    padding-inline: 5%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    row-gap: 20px;
+    background-color: #f16232;
+    padding-block: 2%;
+    
+    
+}
+
+.con4 a{
+    color: white;
+    text-decoration: none;
+}
+
+.con4 a:hover{
+    text-decoration: underline;
+}
+
+.con4 li{
+    list-style: none;
+}
+
+.con4 .one{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+}
+.one span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+
+}
+
+.one h1{
+    
+    letter-spacing: 5px;
+    
+}
+
+.one hr{
+    height: 30px;
+    width: 1px;
+    color: white;
+}
+
+.con4 ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 60px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    
+}
+
+.con4 ul .btn5{
+    height: 40px;
+    width: 80px;
+    color: white;
+    background-color: rgb(67,135,244);
+    border-radius: 5px;
+    border: none;
+
+}
+.two{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.two hr{
+    height: 20px;
+}
+
+.thr{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.thr p{
+    color: white;
+}
+.thr .ril{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    
+}
+.ril hr{
+    width: 30px;
+    color: white;
+
+}
+
+.ril i{
+    font-size: 26px;
+    color: rgb(226, 225, 225);
+}
+.ril i:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+    .con{
+        flex-direction: column;
+    }
+
+    .con .left{
+        height: auto;
+        width: 100%;
+    }
+
+    .con span{
+        height: auto;
+        width: auto;
+        flex-wrap: wrap;
+    }
+    .con span input{
+        width: auto;    
+    }
+
+    .con .right{
+        height: auto;
+        width: 100%; 
+        background-size: 60%;
+        padding-block: 30px;
+
+    }
+    .txt img{
+        width: 15px;
+        margin-top: -70px;
+    }
+    .txt p{
+        width: 100%;
+        font-size: 16px;
+        margin-left: -20px;
+        
+    
+
+    }
+    .right .last{
+        flex-wrap: wrap;
+        width: auto;
+    }
+    .con1{
+        height: auto;
+        width: 100%;
+    }
+    .con1 a {
+        height: auto;
+        width: 90%;
+
+    }
+    .con1 a img{
+        width: 100%;
+    }
+
+    .con1 .btn1{
+        font-size: 16px;
+        width: auto;
+    }
+    .con2{
+        height: auto;
+        width: 100%;
+    }
+    .con2 .left2{
+        height: auto;
+        width: 100%;
+        padding-block: 5%;
+
+    }
+    .right2{
+        display: none;
+    }
+    .btn2{
+        width: auto;
+    }
+    .con4 ul{
+        column-gap: 10px;
+    }
+
+    .con4 .two{
+        column-gap: 10px;
+    }
+}
+
+
